@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import MovieCard from './assets/components/MovieCard'
 import './App.css'
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
 
   return (
     <>
-       <MovieCard/>
     </>
   )
 }

@@ -5,9 +5,9 @@ function Home() {
     const [searchQuery,setSearchQuery] = useState("") ;
 
      const movies = [
-         {id: 1, title: "John Wick", release_date:"2020"},
-         {id: 2, title: "John Wick", release_date:"1999"},
-         {id: 3, title: "John Wick", release_date:"1998"}
+         {id: 1, title: "John Wick", release_date:"2020", url: "https://via.placeholder.com/150"},
+         {id: 2, title: "John Wick", release_date:"1999", url: "https://via.placeholder.com/150"},
+         {id: 3, title: "John Wick", release_date:"1998", url: "https://via.placeholder.com/150"}
      ];
 
      const handleSearch = (e) =>{
