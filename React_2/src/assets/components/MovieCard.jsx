@@ -10,15 +10,15 @@ export default function MovieCard({movie}) {
   return (
     <>
        <div className="movie-card">
-             <div className="movie_poster">
+             <div className="movie-poster">
                 {/* <img src={movie.url}  /> */}
-                  <div className="movie_overlay">
-                        <button className="favorite_btn" onClick={onFavoriteClick}>
+                  <div className="movie-overlay">
+                        <button className="favorite-btn" onClick={onFavoriteClick}>
                            ▲
                         </button>
                    </div>
              </div>
-             <div className="movie_info">
+             <div className="movie-info">
                    <h3>{movie.title}</h3>
                    <p>{movie.release_date}</p>
              </div>

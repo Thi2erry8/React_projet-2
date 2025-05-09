@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return(
         <nav className="navbar">
-              <div className="navbar_brand">
-                    <Link to="/" className="nav_link">Home</Link>
-                    <Link to="/favorites" className="nav_link">Favorites</Link>
+              <div className="navbar-brand">
+                    <Link to="/" className="nav-link">Home</Link>
+                    <Link to="/favorites" className="nav-link">Favorites</Link>
               </div>
         </nav>
     )
