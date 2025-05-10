@@ -1,11 +1,11 @@
-
+import "../css/MovieCard.css"
 
 export default function MovieCard({movie}) {
   function onFavoriteClick(){
            alert("clicked")
   }
 
-  if (!movie) return <div>Film pa disponib</div>;
+  if (!movie) return <div>Film indisponible</div>;
 
   return (
     <>
