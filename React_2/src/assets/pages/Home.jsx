@@ -1,5 +1,7 @@
 import { useState } from "react";
+import {searchMovies,getPopularMovies} from ".services/api";
 import MovieCard from "../components/MovieCard";
+
 function Home() {
 
     const [searchQuery,setSearchQuery] = useState("") ;
