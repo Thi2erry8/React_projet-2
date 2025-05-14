@@ -5,7 +5,7 @@ export default function MovieCard({movie}) {
            alert("clicked")
   }
 
-  if (!movie) return <div>Film indisponible</div>;
+
 
   return (
     <>
